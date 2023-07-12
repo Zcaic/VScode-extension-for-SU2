@@ -1,0 +1,10 @@
+{
+    "tokenColors": [
+        {
+            "scope": "comment",
+            "settings": {
+                "foreground": "#FF0000"
+            }
+        }
+    ]
+}

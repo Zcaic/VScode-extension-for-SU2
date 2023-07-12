@@ -1,0 +1,26 @@
+{
+  "name": "su2",
+  "publisher": "Zcaic",
+  "displayName": "SU2",
+  "description": "Language support for cfg_file of SU2 (Multiphysics Simulation and Design Software)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "su2",
+      "aliases": ["SU2", "su2"],
+      "extensions": [".cfg"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "su2",
+      "scopeName": "source.su2",
+      "path": "./syntaxes/su2.tmLanguage.json"
+    }]
+  }
+}

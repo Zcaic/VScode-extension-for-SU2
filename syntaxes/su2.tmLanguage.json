@@ -1,0 +1,18 @@
+{
+	"name": "SU2",
+	"patterns": [
+		{
+			"name": "comment",
+			"match": "%.*$"
+		},
+		{
+			"name": "keyword",
+			"match": "^([^=]+)"
+		},
+		{
+			"name": "variable.parameter",
+			"match": "([^=]+)$"
+		}
+	],
+	"scopeName": "source.su2"
+}
