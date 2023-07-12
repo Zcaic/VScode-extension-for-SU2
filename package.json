@@ -3,9 +3,10 @@
   "publisher": "Zcaic",
   "displayName": "SU2",
   "description": "Language support for cfg_file of SU2 (Multiphysics Simulation and Design Software)",
-  "version": "0.0.1",
+  "icon": "icons/logoSU2small.png",
+  "version": "0.0.3",
   "engines": {
-    "vscode": "^1.80.0"
+    "vscode": "^0.10.5"
   },
   "categories": [
     "Programming Languages"
