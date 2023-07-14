@@ -6,11 +6,11 @@
 			"match": "%.*$"
 		},
 		{
-			"name": "keyword",
+			"name": "entity.name.function.su2",
 			"match": "^([^=]+)"
 		},
 		{
-			"name": "variable.parameter",
+			"name": "variable.su2",
 			"match": "([^=]+)$"
 		}
 	],
