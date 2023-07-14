@@ -4,7 +4,11 @@
   "displayName": "SU2",
   "description": "Language support for cfg_file of SU2 (Multiphysics Simulation and Design Software)",
   "icon": "icons/logoSU2small.png",
-  "version": "0.0.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zcaic/VScode-extension-for-SU2"
+  },
+  "version": "0.0.4",
   "engines": {
     "vscode": "^0.10.5"
   },
@@ -12,16 +16,29 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "su2",
-      "aliases": ["SU2", "su2"],
-      "extensions": [".cfg"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "su2",
-      "scopeName": "source.su2",
-      "path": "./syntaxes/su2.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "su2",
+        "aliases": [
+          "SU2",
+          "su2"
+        ],
+        "extensions": [
+          ".cfg"
+        ],
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "dark": "icons/logoSU2small.png",
+          "light": "icons/logoSU2small.png"
+        }
+      }
+    ],
+    "grammars": [
+      {
+        "language": "su2",
+        "scopeName": "source.su2",
+        "path": "./syntaxes/su2.tmLanguage.json"
+      }
+    ]
   }
 }
